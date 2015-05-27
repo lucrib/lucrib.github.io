@@ -1,23 +1,23 @@
 {
-  "resume": "string",
+  "resume": "A",
   "exp": [
     {
-        "position": "string",
-        "company": "string",
-        "period": "string",
-        "description":"string"
+        "position": "B",
+        "company": "C",
+        "period": "D",
+        "description":"E"
       },
       {
-        "position": "string",
-        "company": "string",
-        "period": "string",
-        "description":"string"
+        "position": "F",
+        "company": "G",
+        "period": "H",
+        "description":"I"
       },
       {
-        "position": "string",
-        "company": "string",
-        "period": "string",
-        "description":"string"
+        "position": "J",
+        "company": "K",
+        "period": "L",
+        "description":"M"
       }
   ]
 }
