@@ -1,0 +1,11 @@
+{
+  "resume": "string",
+  "exp": [
+    {
+      "position": "string",
+      "company": "string",
+      "period": "string",
+      "description": "string"
+    }
+  ]
+}
