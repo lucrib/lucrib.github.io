@@ -1,23 +1,23 @@
 {
-  "resume": "N",
-  "exp": [
-    {
-        "position": "O",
-        "company": "P",
-        "period": "Q",
-        "description":"R"
-      },
-      {
-        "position": "S",
-        "company": "T",
-        "period": "U",
-        "description":"V"
-      },
-      {
-        "position": "X",
-        "company": "Z",
-        "period": "K",
-        "description":"W"
-      }
-  ]
+	resume: "English Resume.",
+	exp: [
+		  {
+			  position: "O",
+			  company: "P",
+			  period: "Q",
+			  description:"R"
+		  },
+		  {
+			  position: "S",
+			  company: "T",
+			  period: "U",
+			  description:"V"
+		  },
+		  {
+			  position: "X",
+			  company: "Z",
+			  period: "K",
+			  description: "W"
+		  }
+	     ]
 }
