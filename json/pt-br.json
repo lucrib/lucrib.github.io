@@ -1,23 +1,24 @@
 {
-	resume: "Portuguese Resume",
-	exp: [
-	      {
-	    	  position: "B",
-	    	  company: "C",
-	    	  period: "D",
-	    	  description:"E"
-	      },
-	      {
-	    	  position: "F",
-	    	  company: "G",
-	    	  period: "H",
-	    	  description:"I"
-	      },
-	      {
-	    	  position: "J",
-	    	  company: "K",
-	    	  period: "L",
-	    	  description: "M"
-	      }
-	      ]
-	}
+  "languageTag": "pt-BR",
+  "pageTitle": "Lucas Ribeiro · Performance & Test Automation",
+  "nav": { "about": "Sobre", "experience": "Experiência", "toolkit": "Toolkit", "contact": "Contato" },
+  "theme": { "dark": "Escuro", "light": "Claro", "darkLabel": "Ativar tema escuro", "lightLabel": "Ativar tema claro" },
+  "hero": { "eyebrow": "Performance & test automation engineering", "title": "Construindo qualidade em cada release.", "summary": "Engenheiro de software com mais de 10 anos de experiência, especializado em automação de testes e desenvolvimento backend.", "primaryAction": "Conheça minha experiência <span>↘</span>", "secondaryAction": "Vamos conversar <span>↗</span>", "note": "Código legível. Sistemas testáveis. Times que entregam rápido sem quebrar o que importa." },
+  "sections": { "aboutLabel": "Perfil", "experienceLabel": "Experiência", "toolkitLabel": "Toolkit" },
+  "about": { "title": "Automação de testes e engenharia backend conectadas pela qualidade.", "body": "Trabalho principalmente com Python e Java para construir APIs REST, frameworks de testes automatizados e suítes de performance que ajudam os times a entregar com confiança. Gosto de código legível, sistemas testáveis e práticas que transformam sinais de qualidade em decisões melhores.", "statOne": "anos em tecnologia", "statTwo": "testes de integração", "statThree": "idiomas disponíveis" },
+  "experienceMeta": { "title": "Experiência conectando contexto, risco e entrega.", "kicker": "linha do tempo" },
+  "toolkit": { "title": "Ferramentas para investigar, automatizar e entregar melhor.", "python": "Python, pytest e xdist para automação de testes, APIs REST, gRPC e WebSocket, scripts de dados e frameworks de integração.", "java": "Java e Spring Boot para desenvolvimento backend, APIs e sistemas corporativos com atenção a comportamento, integração e confiabilidade.", "qualityTitle": "Qualidade", "quality": "Test strategy, acceptance testing, performance testing, testes funcionais e integração contínua.", "environmentsTitle": "Ambientes", "environments": "Docker, Jenkins, Cassandra, MySQL, Linux, Jira, Bitbucket e ambientes de teste próximos da produção." },
+  "contact": { "eyebrow": "Próximo passo", "title": "Vamos falar sobre software confiável?", "email": "Enviar um e-mail <span>↗</span>" },
+  "footer": { "note": "Software quality, com curiosidade e cuidado." },
+  "experience": [
+    { "position": "Performance & Test Automation Engineer", "company": "Xanadu Consultancy", "period": "Jun 2024 — presente", "location": "Remoto · Sorocaba, BR", "description": ["Engenharia de automação para uma plataforma de trading esportivo baseada em microserviços.", "Responsável pela cobertura de aceitação ponta a ponta em um framework Python/pytest com cerca de 26 mil testes de integração.", "Redução de falhas inconsistentes até uma suíte consistentemente verde e criação de tooling Jenkins para ambientes pessoais de teste."] },
+    { "position": "Senior Software Engineer", "company": "Nasuni", "period": "Jan 2023 — Jul 2024", "location": "Híbrido · Cork, Irlanda", "description": ["Desenvolvimento backend e construção de APIs com Python e FastAPI.", "Atuação em sistemas que exigem clareza de comportamento, integração e confiabilidade."] },
+    { "position": "Senior Software Development Engineer Test", "company": "Transact Campus Inc", "period": "Jun 2022 — Jan 2023", "location": "Remoto · Limerick, Irlanda", "description": ["Engenharia de testes automatizados para produtos de software.", "Desenvolvimento de soluções de automação com Python e práticas de qualidade integradas ao ciclo de entrega."] },
+    { "position": "Java Software Engineer", "company": "Xanadu Consultancy", "period": "Jun 2020 — Jun 2022", "location": "Híbrido · Irlanda", "description": ["Desenvolvimento de software backend com Java e Spring Boot.", "Construção e evolução de serviços com foco em integração, manutenção e comportamento verificável."] },
+    { "position": "QA Automation Engineer", "company": "Xanadu Consultancy", "period": "Mai 2018 — Jun 2020", "location": "Irlanda", "description": ["Planejamento, estimativa e desenvolvimento de casos de teste automatizados.", "Frameworks em Python 2 e 3 com Nose e pytest, imagens Docker e execução em CI.", "Desenvolvimento e execução de testes de performance com JMeter."] },
+    { "position": "Test Automation Analyst", "company": "Nextel Brazil", "period": "Nov 2017 — Mai 2018", "location": "São Paulo, BR", "description": ["Planejamento de testes, cenários em Gherkin e testes de APIs e microsserviços.", "Scripts Python para coletar dados de arquivos CSV e Web APIs.", "Automação com Python e pytest, além de testes de sistemas IVR."] },
+    { "position": "Testador Pleno", "company": "FIT — Flextronics Instituto de Tecnologia", "period": "2014 — 2015", "location": "Campinas, BR", "description": ["Análise de requisitos e definição de estratégias de teste.", "Execução de testes funcionais, integração, sistema, regressão e automação.", "Deploy e validação em distribuições Linux e private clouds."] },
+    { "position": "Testador Junior", "company": "FIT — Flextronics Instituto de Tecnologia", "period": "2012 — 2014", "location": "Campinas, BR", "description": ["Execução e manutenção de casos de teste em ambientes diversificados.", "Reporte e acompanhamento de defeitos com JIRA e Mantis.", "Projetos web, desktop, Linux, Windows e UEFI."] },
+    { "position": "Analista de Testes Junior", "company": "TOTVS", "period": "2011 — 2012", "location": "Brasil", "description": ["Testes funcionais, de integração e exploratórios em módulos web e desktop.", "Reprodução de defeitos reportados por clientes e verificação de correções.", "Testes de novas funcionalidades e customizações para clientes."] }
+  ]
+}
