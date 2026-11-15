@@ -3,8 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Lucas Ribeiro — software quality professional focused on testing, automation and engineering practice.">
-  <title>Lucas Ribeiro · Software Quality</title>
+  <meta name="description" content="Lucas Ribeiro — engenheiro de software especializado em automação de testes e desenvolvimento backend.">
+  <meta name="theme-color" content="#f5f6f1">
+  <link rel="canonical" href="https://lucrib.github.io/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Lucas Ribeiro · Performance & Test Automation">
+  <meta property="og:description" content="Software engineer specialising in test automation and backend development.">
+  <meta property="og:url" content="https://lucrib.github.io/">
+  <meta property="og:image" content="https://lucrib.github.io/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Lucas Ribeiro · Performance & Test Automation">
+  <meta name="twitter:description" content="Software engineer specialising in test automation and backend development.">
+  <meta name="twitter:image" content="https://lucrib.github.io/og-image.svg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>Lucas Ribeiro · Performance & Test Automation</title>
   <link rel="stylesheet" href="css/main-styles.css">
   <script src="js/main.js" defer></script>
 </head>
@@ -12,9 +24,11 @@
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Lucas Ribeiro home"><span>LR</span> Lucas Ribeiro</a>
     <nav class="main-nav" aria-label="Primary navigation">
-      <a href="#about" data-i18n="nav.about">Sobre</a>
-      <a href="#experience" data-i18n="nav.experience">Experiência</a>
-      <a href="#toolkit" data-i18n="nav.toolkit">Toolkit</a>
+      <a href="#about" data-section-link="about" data-i18n="nav.about">Sobre</a>
+      <a href="#highlights" data-section-link="highlights" data-i18n="nav.highlights">Destaques</a>
+      <a href="#projects" data-section-link="projects" data-i18n="nav.projects">Cases</a>
+      <a href="#experience" data-section-link="experience" data-i18n="nav.experience">Experiência</a>
+      <a href="#toolkit" data-section-link="toolkit" data-i18n="nav.toolkit">Toolkit</a>
       <a href="#contact" data-i18n="nav.contact">Contato</a>
     </nav>
     <div class="language-switcher" aria-label="Language selector">
@@ -29,15 +43,17 @@
     <section class="hero section-shell" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow" data-i18n="hero.eyebrow">Performance &amp; test automation engineering</p>
-        <h1 id="hero-title" data-i18n="hero.title">Construindo qualidade em cada release.</h1>
+        <h1 id="hero-title" data-i18n="hero.title">Performance &amp; Test Automation Engineer especializado em Python e Java.</h1>
         <p class="hero-summary" data-i18n="hero.summary">Engenheiro de software com mais de 10 anos de experiência, especializado em automação de testes e desenvolvimento backend.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#experience" data-i18n="hero.primaryAction">Conheça minha experiência <span>↘</span></a>
+          <a class="button button-primary" href="#projects" data-i18n="hero.primaryAction">Ver cases <span>↘</span></a>
+          <a class="button button-secondary" href="cv-en-gb.html" download data-cv-link data-i18n="hero.cvAction">Baixar CV <span>↓</span></a>
           <a class="text-link" href="#contact" data-i18n="hero.secondaryAction">Vamos conversar <span>↗</span></a>
         </div>
       </div>
       <div class="hero-note" aria-label="Professional focus">
         <span class="note-mark">✳</span>
+        <span class="hero-note-label" data-i18n="hero.targetLabel">Foco profissional</span>
         <p data-i18n="hero.note">Código legível. Sistemas testáveis. Times que entregam rápido sem quebrar o que importa.</p>
       </div>
     </section>
@@ -55,19 +71,57 @@
       </div>
     </section>
 
+    <section id="highlights" class="section-shell section-grid" aria-labelledby="highlights-title">
+      <div class="section-label"><span>02</span><span data-i18n="sections.highlightsLabel">Destaques</span></div>
+      <div class="section-content">
+        <h2 id="highlights-title" data-i18n="highlights.title">Resultados e contexto para além dos cargos.</h2>
+        <div class="highlights-layout">
+          <div class="highlight-grid">
+            <article class="highlight-card"><strong>10+</strong><h3 data-i18n="highlights.yearsTitle">anos em tecnologia</h3><p data-i18n="highlights.yearsBody">Uma trajetória que conecta qualidade, automação, backend e entrega de software.</p></article>
+            <article class="highlight-card highlight-card-accent"><strong>26K</strong><h3 data-i18n="highlights.testsTitle">testes de integração</h3><p data-i18n="highlights.testsBody">Cobertura de aceitação ponta a ponta em um framework Python/pytest.</p></article>
+            <article class="highlight-card"><strong>2</strong><h3 data-i18n="highlights.languagesTitle">idiomas profissionais</h3><p data-i18n="highlights.languagesBody">Conteúdo disponível em português brasileiro e inglês britânico.</p></article>
+          </div>
+          <aside class="availability-card">
+            <span class="tool-index" data-i18n="availability.label">Disponibilidade</span>
+            <h3 data-i18n="availability.title">Aberto a colaborações internacionais.</h3>
+            <p data-i18n="availability.body">Baseado em Sorocaba, Brasil, com experiência em times remotos e multiculturais.</p>
+            <p class="availability-roles"><strong data-i18n="availability.rolesLabel">Busco:</strong> <span data-i18n="availability.roles">Performance Engineer · SDET · QA Automation Engineer · Backend Engineer</span></p>
+            <div class="availability-tags"><span data-i18n="availability.remote">Remote-friendly</span><span data-i18n="availability.location">Sorocaba · BR</span></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-shell section-grid" aria-labelledby="projects-title">
+      <div class="section-label"><span>03</span><span data-i18n="sections.projectsLabel">Cases</span></div>
+      <div class="section-content">
+        <div class="section-heading-row">
+          <h2 id="projects-title" data-i18n="projects.title">Problemas de engenharia traduzidos em sinais de qualidade.</h2>
+          <span class="section-kicker" data-i18n="projects.kicker">evidências</span>
+        </div>
+        <div class="case-grid">
+          <article class="case-card case-card-featured"><span class="tool-index">01</span><h3 data-i18n="projects.acceptanceTitle">Cobertura de aceitação em escala</h3><p data-i18n="projects.acceptanceBody">Engenharia de automação para uma plataforma de trading esportivo baseada em microsserviços, com cerca de 26 mil testes de integração em Python/pytest.</p><div class="case-meta"><span>Python</span><span>pytest</span><span>Jenkins</span></div></article>
+          <article class="case-card"><span class="tool-index">02</span><h3 data-i18n="projects.backendTitle">Backend e APIs confiáveis</h3><p data-i18n="projects.backendBody">Desenvolvimento backend e construção de APIs com Python e FastAPI para sistemas que exigem clareza de comportamento, integração e confiabilidade.</p><div class="case-meta"><span>Python</span><span>FastAPI</span><span>REST</span></div></article>
+          <article class="case-card"><span class="tool-index">03</span><h3 data-i18n="projects.javaTitle">Serviços corporativos em Java</h3><p data-i18n="projects.javaBody">Construção e evolução de serviços backend com Java e Spring Boot, mantendo foco em integração, manutenção e comportamento verificável.</p><div class="case-meta"><span>Java</span><span>Spring Boot</span><span>Backend</span></div></article>
+        </div>
+        <p class="case-note" data-i18n="projects.note">Mais detalhes, métricas e links públicos serão adicionados conforme os cases forem documentados.</p>
+      </div>
+    </section>
+
     <section id="experience" class="section-shell section-grid" aria-labelledby="experience-title">
-      <div class="section-label"><span>02</span><span data-i18n="sections.experienceLabel">Experiência</span></div>
+      <div class="section-label"><span>04</span><span data-i18n="sections.experienceLabel">Experiência</span></div>
       <div class="section-content">
         <div class="section-heading-row">
           <h2 id="experience-title" data-i18n="experienceMeta.title">Experiência que conecta contexto, risco e entrega.</h2>
           <span class="section-kicker" data-i18n="experienceMeta.kicker">linha do tempo</span>
         </div>
         <div id="experience-list" class="timeline"></div>
+        <button class="experience-toggle" type="button" data-experience-toggle aria-expanded="false" data-i18n="experienceMeta.showOlder">Ver experiências anteriores <span>↓</span></button>
       </div>
     </section>
 
     <section id="toolkit" class="section-shell section-grid" aria-labelledby="toolkit-title">
-      <div class="section-label"><span>03</span><span data-i18n="sections.toolkitLabel">Toolkit</span></div>
+      <div class="section-label"><span>05</span><span data-i18n="sections.toolkitLabel">Toolkit</span></div>
       <div class="section-content">
         <h2 id="toolkit-title" data-i18n="toolkit.title">Ferramentas para investigar, automatizar e entregar melhor.</h2>
         <div class="toolkit-grid">
@@ -79,16 +133,34 @@
       </div>
     </section>
 
+    <section id="credibility" class="section-shell section-grid credibility-section" aria-labelledby="credibility-title">
+      <div class="section-label"><span>06</span><span data-i18n="sections.credibilityLabel">Credibilidade</span></div>
+      <div class="section-content credibility-content">
+        <div><h2 id="credibility-title" data-i18n="credibility.title">Conheça o trabalho por trás do resumo.</h2><p class="lead" data-i18n="credibility.body">Histórico profissional, recomendações e projetos públicos estão disponíveis nos meus perfis.</p></div>
+        <div class="credibility-actions"><a class="button button-primary" href="cv-en-gb.html" download data-cv-link><svg class="social-icon" aria-hidden="true"><use href="#icon-document"></use></svg><span data-i18n="credibility.cv">Baixar CV</span><span aria-hidden="true">↓</span></a><a class="button button-secondary" href="https://www.linkedin.com/in/lucrib/" target="_blank" rel="noreferrer"><svg class="social-icon" aria-hidden="true"><use href="#icon-linkedin"></use></svg><span data-i18n="credibility.linkedin">Ver perfil no LinkedIn</span><span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/lucrib" target="_blank" rel="noreferrer"><svg class="social-icon" aria-hidden="true"><use href="#icon-github"></use></svg><span data-i18n="credibility.github">Explorar GitHub</span><span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
     <section id="contact" class="contact-section section-shell" aria-labelledby="contact-title">
       <div><p class="eyebrow" data-i18n="contact.eyebrow">Próximo passo</p><h2 id="contact-title" data-i18n="contact.title">Vamos falar sobre software confiável?</h2></div>
       <div class="contact-actions">
-        <a class="button button-light" href="mailto:lucasribeiro1990@gmail.com?Subject=Contact" data-i18n="contact.email">Enviar um e-mail <span>↗</span></a>
-        <a class="contact-link" href="https://github.com/lucrib" target="_blank" rel="noreferrer">GitHub ↗</a>
-        <a class="contact-link" href="https://www.linkedin.com/in/lucrib/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        <a class="button button-light" href="mailto:lucasribeiro1990@gmail.com?Subject=Contact"><svg class="social-icon" aria-hidden="true"><use href="#icon-email"></use></svg><span data-i18n="contact.email">Enviar um e-mail</span><span aria-hidden="true">↗</span></a>
+        <a class="contact-link" href="https://github.com/lucrib" target="_blank" rel="noreferrer"><svg class="social-icon" aria-hidden="true"><use href="#icon-github"></use></svg><span>GitHub</span><span aria-hidden="true">↗</span></a>
+        <a class="contact-link" href="https://www.linkedin.com/in/lucrib/" target="_blank" rel="noreferrer"><svg class="social-icon" aria-hidden="true"><use href="#icon-linkedin"></use></svg><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer section-shell"><span>© Lucas Ribeiro</span><span data-i18n="footer.note">Software quality, com curiosidade e cuidado.</span></footer>
+  <button class="back-to-top" type="button" data-back-to-top aria-label="Voltar ao topo">↑</button>
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="icon-email" viewBox="0 0 24 24"><path d="M3 5.5h18v13H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-github" viewBox="0 0 24 24"><path d="M12 2.8a9.2 9.2 0 0 0-2.9 17.93c.46.08.63-.2.63-.44v-1.7c-2.57.56-3.11-1.1-3.11-1.1-.42-1.07-1.03-1.36-1.03-1.36-.84-.58.06-.57.06-.57.93.07 1.42.96 1.42.96.83 1.42 2.18 1.01 2.71.77.08-.6.33-1.01.59-1.25-2.05-.23-4.2-1.03-4.2-4.57 0-1.01.36-1.83.96-2.48-.1-.24-.42-1.17.09-2.44 0 0 .78-.25 2.54.95a8.8 8.8 0 0 1 4.63 0c1.76-1.2 2.54-.95 2.54-.95.51 1.27.19 2.2.09 2.44.6.65.96 1.47.96 2.48 0 3.55-2.16 4.34-4.22 4.57.33.29.62.85.62 1.72v2.53c0 .24.17.52.63.43A9.2 9.2 0 0 0 12 2.8Z" fill="currentColor"/></symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M5.2 8.3H2.7v12h2.5v-12ZM3.95 2.4a1.55 1.55 0 1 0 0 3.1 1.55 1.55 0 0 0 0-3.1ZM9.2 8.3H6.8v12h2.4v-6.2c0-1.63.31-3.2 2.33-3.2 1.99 0 2.02 1.85 2.02 3.31v6.09H16v-6.88c0-3.38-.73-5.97-4.69-5.97-1.9 0-3.17 1.04-3.69 2.02h-.03V8.3h-2.4Z" fill="currentColor"/></symbol>
+    <symbol id="icon-document" viewBox="0 0 24 24"><path d="M6 3.5h8l4 4v13H6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M14 3.5v4h4M9 12h6M9 16h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  </svg>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"ProfilePage","name":"Lucas Ribeiro · Performance & Test Automation","url":"https://lucrib.github.io/","mainEntity":{"@type":"Person","@id":"https://lucrib.github.io/#lucas-ribeiro","name":"Lucas Ribeiro","url":"https://lucrib.github.io/","jobTitle":"Performance & Test Automation Engineer","description":"Software engineer specialising in test automation, backend development and performance engineering.","sameAs":["https://www.linkedin.com/in/lucrib/","https://github.com/lucrib"],"knowsAbout":["Software quality","Test automation","Python","Java","pytest","FastAPI","Spring Boot","Backend development","Performance testing"]}}
+  </script>
 </body>
 </html>
